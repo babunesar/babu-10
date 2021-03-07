@@ -1,0 +1,78 @@
+// Main Css Start Here
+body {
+    background-color: #333;
+    color: #fff;
+}
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    background-color: #2b292c;
+    opacity: .7;
+}
+
+// Home Section Css
+#home {
+    background: url(img/home.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .dark-ovarlay {
+        background-color: rgba(0, 0, 0, .7);
+    }
+
+    .home-inner{
+        padding: 6.25rem 0;
+    }
+
+    .fas {
+        font-size: 25px;
+        background-color: #fff;
+        color: #008ed6;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .card-babu {
+        opacity: .8;
+    }
+
+}
+
+// Explore Section Css
+.explore-sec {
+
+    .fas {
+        font-size: 25px;
+        padding: 5px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+}
+
+// Create Main Section Css
+.create-main-sec {
+
+    .fas {
+        font-size: 25px;
+        padding: 5px;
+        border-radius: 5px;
+        color: #008ed6;
+        background-color: #fff;
+    }
+
+}
+
+// Footer Section Css 
+footer {
+
+    a {
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+}
+
+.modal-button {
+    margin-left: 40%;
+}
